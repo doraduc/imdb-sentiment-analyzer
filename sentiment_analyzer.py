@@ -70,7 +70,7 @@ print(f"  False Neg: {cm[1][0]}  True Pos:  {cm[1][1]}")
 print("\n  Detailed Report:")
 print(report)
 
-# ── Step 5: Test your own reviews ─────────────────────────
+# Step 5: Test your own reviews
 print("=" * 55)
 print("  [5/5] YOUR OWN REVIEWS")
 print("=" * 55)
@@ -94,7 +94,7 @@ for review in my_reviews:
     print(f'   "{review}"')
     print()
 
-# ── Bonus: Find where model struggles ─────────────────────
+# Bonus: Find where model struggles 
 print("=" * 55)
 print("  BONUS: Reviews the model got WRONG")
 print("=" * 55)
